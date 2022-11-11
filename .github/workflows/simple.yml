@@ -22,7 +22,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Directory Powershell 
-        run: Get-Localtion
+        run: Get-Location
       - name: Directory Bach 
         run: pwd
         shell: bash
