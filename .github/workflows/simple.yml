@@ -17,5 +17,14 @@ jobs:
           import os
           print(os.environ['PATH'])
         shell: python
+  
+  windows-commands: 
+    runs-on: windows-latest
+    steps:
+      - name: Directory Powershell 
+        run: Get-Localtion
+      - name: Directory Bach 
+        run: pwd
+        shell: bash
 
 
