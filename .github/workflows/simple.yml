@@ -14,8 +14,8 @@ jobs:
           npm -v
       - name: pythom command
         run: |
-          import platform
-          print(platform.processor())
-
+          import os
+          print(os.environ['PATH'])
+        shell: python
 
 
