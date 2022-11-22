@@ -8,7 +8,7 @@ jobs:
       matrix: 
         os: [ macos-latest, ubuntu-latest, windows-latest ]
         node_version: [6,8,10]
-        exclude:
+        exclude: # exclude a particular combination
           - os: ubuntu-latest
             node_version: 6
           - os: macos-latest
